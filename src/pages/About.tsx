@@ -1,5 +1,6 @@
 import { Box, Heading, Link, Stack } from "@chakra-ui/react";
 import { Routes, Route } from "react-router-dom";
+import { URL_ROOT } from "../const";
 
 const Career = () => {
   return (
@@ -22,8 +23,8 @@ const AboutSub = () => {
     <Box>
       <Heading>About</Heading>
       <Stack direction={"column"}>
-        <Link href={"/about/works"}>Works</Link>
-        <Link href={"/about/career"}>Career</Link>
+        <Link href={`${URL_ROOT}/about/works`}>Works</Link>
+        <Link href={`${URL_ROOT}/about/career`}>Career</Link>
       </Stack>
     </Box>
   );
