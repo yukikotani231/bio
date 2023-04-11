@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 import { FaTwitter } from "react-icons/fa";
 import { ReactNode } from "react";
-import { URL_ROOT } from "../const";
 
 const SocialButton = ({
   children,
@@ -99,15 +98,15 @@ interface LinkItem {
 const NAV_ITEMS: LinkItem[] = [
   {
     label: "Home",
-    href: `${URL_ROOT}/`,
+    href: "/",
   },
   {
     label: "About",
-    href: `${URL_ROOT}/about`,
+    href: "/about",
   },
   {
     label: "Contact",
-    href: `${URL_ROOT}/contact`,
+    href: "/contact",
   },
 ];
 

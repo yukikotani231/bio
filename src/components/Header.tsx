@@ -21,7 +21,6 @@ import {
   StarIcon,
   ChevronDownIcon,
 } from "@chakra-ui/icons";
-import { URL_ROOT } from "../const";
 
 const WithSubnavigation = () => {
   const { isOpen, onToggle } = useDisclosure();
@@ -238,7 +237,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    href: `/bio/`,
+    href: "/",
   },
   {
     label: "About",
@@ -246,19 +245,19 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Career",
         subLabel: "経歴",
-        href: `${URL_ROOT}/about/career`,
+        href: "/about/career",
       },
       {
         label: "Works",
         subLabel: "作品・実績",
-        href: `${URL_ROOT}/about/works`,
+        href: "/about/works",
       },
     ],
-    href: `${URL_ROOT}/about`,
+    href: "/about",
   },
   {
     label: "Contact",
-    href: `${URL_ROOT}/contact`,
+    href: "/contact",
   },
 ];
 

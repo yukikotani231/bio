@@ -2,7 +2,7 @@
   "name": "bio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yukikotani231.github.io/bio/",
+  "homepage": "https://yukikotani231.github.io/",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.18",
     "@chakra-ui/react": "^2.5.5",
